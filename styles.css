@@ -1,0 +1,42 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: gold;
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    color:cornflowerblue;
+    max-width: fit-content;
+}
+
+img {
+    border: 1px solid crimson;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+h3 {
+    color:cornflowerblue;
+}
+
+details {
+    color: deeppink;
+}
+
+#profile-description {
+
+}
