@@ -5,37 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./script.js"></script>
   <title>My Profile</title>
 </head>
 <body>
   <nav>
-    <a href="./index.html" id="logo">Neo Moloi</a>
-    <a href="#">About</a>
-    <a href="#">Experience</a>
-    <a href="#">Contact</a>
+    <a href="./index.html" id="logo">
+      <img src="logo.png" alt="black and white logo">
+    </a>
+    <a class="link" href="#about">About</a>
+    <a class="link" href="#education">Education</a>
+    <a class="link" href="#contact">Contact</a>
+    <i class="fa-solid fa-bars"></i>
   </nav>
+
   <header>
     <figure>
       <img src="./profile-pic.avif" id="hero-img" alt="picture of a minion">
     </figure>
     <section class="intro">
       <p>Hi there, I'm</p>
-      <h1>Neo Moloi</h1>
+      <h1>My Profile</h1>
       <p>Information Systems Student</p>
-      <button class="btn btn-color-1">Download CV</button>
-      <button class="btn btn-color-2"><a href="./#Contact">Contact Info</a></button>
+      <button  class="btn btn-color-1">Download CV</button>
+      <button onclick="sayHello()" class="btn btn-color-2"><a href="./#Contact">Contact Info</a></button>
     </section>
   </header>
+
   <main>
     
-    <section class="about">
-      <h2>About Me</h2>
+    <section id="about" class="about">
+      <h2>Who Am I?</h2>
+      <img src="about-img.jpg" alt="about icon">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ipsam accusamus doloremque modi ut mollitia autem accusantium, exercitationem quasi animi natus dolor distinctio cupiditate voluptate fugiat vero cum. Dolorem, vel.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi illum minima, vero mollitia eligendi quas doloremque, non cumque labore tempora temporibus, incidunt nemo. Neque iusto architecto ipsa iure, repellendus reiciendis.</p>
+      <button class="learn-more">Learn More</button>
     </section>
 
     <p class="heading">Explore My</p>
       <h2>Skills</h2>
-      <section class="skills">
+      
+    <section class="skills">
       <section class="professional-skills">
         <h3>Professional Skills</h3>
         <ul>
@@ -55,7 +65,8 @@
         </ul>
       </section>
     </section>
-    <section class="education">
+
+    <section id="education" class="education">
       <p class="heading">Survey My</p>
       <h2>Education</h2>
       <h3>B.Sc. Information Systems (2024)</h3>
@@ -64,7 +75,7 @@
       <p>Grey College, Bloemfontein</p>
     </section>
 
-    <section class="Contact">
+    <section id="contact" class="contact">
       <p class="heading">Get In Touch</p>
       <h2>Contact Me</h2>
       <a href="mailto:nmoloi757@gmail.com">nmoloi757@gmail.com</a>
@@ -73,10 +84,11 @@
     
   </main>
   <footer>
-    <p>About</p>
-    <p>Experience</p>
-    <p>Contact</p>
-    <p>Copyright &copy; 2024 Neo Moloi. All Rights Reserved</p>
+    <a class="link" href="#about">About</a>
+    <a class="link" href="#education">Education</a>
+    <a class="link" href="#contact">Contact</a>
+    <p>Copyright &copy; 2024 </p>
+    <p>Neo Moloi. All Rights Reserved</p>
   </footer>
 
 </body>
