@@ -157,6 +157,7 @@ h1 {
 
 .skills ul{
   list-style-position: inside;
+  text-align: left;
 }
 
 .skills {
