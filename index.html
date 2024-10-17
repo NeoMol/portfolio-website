@@ -1,84 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon_io/android-chrome-192x192.png">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Profile</title>
 </head>
 <body>
-    <nav>
-        <a href="#">Profile</a>
-        <a href="#">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">References</a>
-    </nav>
+  <nav>
+    <a href="./index.html" id="logo">Neo Moloi</a>
+    <a href="#">About</a>
+    <a href="#">Experience</a>
+    <a href="#">Contact</a>
+  </nav>
+  <header>
+    <figure>
+      <img src="images/hero-img2.avif" id="hero-img" alt="picture of a robot">
+    </figure>
+    <section class="intro">
+      <p>Hi there, I'm</p>
+      <h1>Neo Moloi</h1>
+      <p>Information Systems Student</p>
+      <button class="btn btn-color-1">Download CV</button>
+      <button class="btn btn-color-2"><a href="./#Contact">Contact Info</a></button>
+    </section>
+  </header>
+  <main>
+    
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi illum minima, vero mollitia eligendi quas doloremque, non cumque labore tempora temporibus, incidunt nemo. Neque iusto architecto ipsa iure, repellendus reiciendis.</p>
+    </section>
 
-    <header>
-        <h1>Hi, I'm Neo Moloi</h1>
-        <h2>I'm a final year Computer Information Systems student.</h2>
-        <img src="profile-pic.avif" width="200px"  alt="image of a minion">
-    </header>
-
-    <main>
-        <h3>Profile</h3>
-        <details>
-            <p>0657456047</p>
-            <a href="mailto:nmoloi757@gmail.com">nmoloi757@gmail.com</a>
-            <a href="http://www.linkedin.com/in/neomoloi">LinkedIn</a>
-            <p>Bloemfontein, Free State</p>
-        </details>
-        <p id="profile-description">
-            Enthusiastic IT student with a strong foundation in computer science principles and hands-on experience in software development and network administration. Proficient in programming languages such as Python, Java, and C++, with a keen interest in cybersecurity and cloud computing. Demonstrates excellent problem-solving skills and a collaborative mindset, eager to contribute to innovative projects. Committed to continuous learning and staying current with emerging technologies. Seeking internships or entry-level opportunities to apply technical skills and gain practical experience in the IT industry.
-        </p>
-        <h3>Skills</h3>
+    <p class="heading">Explore My</p>
+      <h2>Skills</h2>
+      <section class="skills">
+      <section class="professional-skills">
+        <h3>Professional Skills</h3>
         <ul>
-            <li>HTML & CSS</li>
-            <li>SQL</li>
-            <li>C#</li>
-            <li>Phyton</li>
-            <li>Java</li>
+          <li>HTML & CSS</li>
+          <li>SQL</li>
+          <li>C#</li>
+          <li>Microsoft Office</li>
         </ul>
-        <h3>Education</h3>
-        <h4>BSc Computer Information Systems 2024</h4>
-        <p>The University of The Free State</p>
-        <h4>National Senior Certificate</h4>
-        <p>Grey College, Bloemfontein</p>
-
-        <h3>Experience</h3>
-        
+      </section>
+      <section class="technical-skills">
+        <h3>Technical Skills</h3>
         <ul>
-            <h5>Web Dev Project:</h5>
-            <li>Designed and developed  a responsive website for a local business, utilizing HTML, CSS and Javascript.</li>
+          <li>Adaptable to Changing Environments</li>
+          <li>Strong Communication Skills</li>
+          <li>Excellent Team Collaboration</li>
+          <li>Proficient Problem Solver</li>
         </ul>
-        <h3>References</h3>
-        <p>Available upon request</p>
+      </section>
+    </section>
+    <section class="education">
+      <p class="heading">Survey My</p>
+      <h2>Education</h2>
+      <h3>B.Sc. Information Systems (2024)</h3>
+      <p>University of the Free State</p>
+      <h3>National Senior Certificate (2019)</h3>
+      <p>Grey College, Bloemfontein</p>
+    </section>
 
-        <form action="" method="get">
-            <h3>Leave Me A Message</h3>
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
-
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" required>
-
-            <label for="message">Message</label>
-            <input type="text" id="message">
-
-        </form>
-
-    </main>
-    <footer>
-        <p>Author: &copy; Neo Moloi</p>
-        <p>Last Updated</p>
-        <a href="#">Profile</a>
-        <a href="#">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">References</a>
-    </footer>
+    <section class="Contact">
+      <p class="heading">Get In Touch</p>
+      <h2>Contact Me</h2>
+      <a href="mailto:nmoloi757@gmail.com">nmoloi757@gmail.com</a>
+      <a href="https://www.linkedin.com/in/neomoloi">LinkedIn</a>
+    </section>
+    
+  </main>
+  <footer>
+    <p>About</p>
+    <p>Experience</p>
+    <p>Contact</p>
+    <p>Copyright &copy; 2024 Neo Moloi. All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
